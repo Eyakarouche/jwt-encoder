@@ -1,0 +1,15 @@
+{
+  "name": "eyakarouche/jwt-encoder",
+  "type": "library",
+  "description": "Bibliothèque Symfony pour l'encodage et le décodage des mots de passe avec JWT",
+  "autoload": {
+    "psr-4": {
+      "SymfonyJwtEncoderLibrary\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/security-bundle": "^5.0",
+    "lexik/jwt-authentication-bundle": "^2.11",
+    "firebase/php-jwt": "^6.9"
+  }
+}
